@@ -11,3 +11,15 @@ create table produtos(
 );
 
 select * from produtos;
+
+create table pessoas(
+	idpessoas int not null auto_increment,
+	nome varchar(45)null,
+	sobrenome varchar(45)null,
+	cidade decimal(10.2) null,
+	rg decimal(10.2) null,
+    nomemae estoque INT NOT NULL DEFAULT 0,
+	primary key (idproduto)
+);
+
+select * from pessoas;
